@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #e6f2e6, #ffffff);
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to bottom right, #1f7022, #81c784);
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: #2e7d32;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #66bb6a;
+}
+
+main {
+  padding: 2rem;
+}
+
+.section1 {
+  background: url('campo1.png') no-repeat center;
+  background-size: cover;
+  color: white;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.section2 {
+  background: url('cidade1.png') no-repeat center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.section3 {
+  background: url('campotec.png') no-repeat center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+.section4 {
+  background: url('sustentabilidade.png') no-repeat center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+footer {
+  background: linear-gradient(to bottom right, #1f7022, #81c784);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
